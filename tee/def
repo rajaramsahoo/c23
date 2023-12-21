@@ -1,0 +1,20 @@
+read from the stan i/p and write the same data in 1/more files ans also write in o/p or in terminal
+ls | tee file1.txt file2.txt
+echo "hello ji" | tee (anyfile name----)
+cat --.txt tee | ---.txt
+raja@DESKTOP-E906LI1:~/c23/tee$ cat country
+India
+afganistan
+uk
+siria
+bangladesh
+pakistan
+
+raja@DESKTOP-E906LI1:~/c23/tee$ cat country | tee country
+India
+afganistan
+uk
+siria
+bangladesh
+pakistan
+

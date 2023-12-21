@@ -1,0 +1,18 @@
+-->line filter find a letter in word
+   >word in line
+
+raja@DESKTOP-E906LI1:~/c23/grep$ nano def
+raja@DESKTOP-E906LI1:~/c23/grep$ cat cricketer
+sachin
+ms dhoni
+raina
+shewag
+virat
+kohli
+
+raja@DESKTOP-E906LI1:~/c23/grep$ grep m
+raja@DESKTOP-E906LI1:~/c23/grep$ grep m cricketer
+ms dhoni
+raja@DESKTOP-E906LI1:~/c23/grep$ grep ms cricketer
+ms dhoni
+

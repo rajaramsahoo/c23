@@ -1,0 +1,17 @@
+> cutting out the section from each lines of files nd write the result to std o/p
+>it main write as cut -b (to cut the test or letter of a wor)
+>raja@DESKTOP-E906LI1:~/c23/cut$ cut -b 1,2,3,4 name
+raja
+raja
+hima
+itis
+chin
+hari
+raja@DESKTOP-E906LI1:~/c23/cut$ cut -b 1 name
+r
+r
+h
+i
+c
+h
+>cut -b cut bite of aline

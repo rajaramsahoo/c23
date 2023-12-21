@@ -1,0 +1,16 @@
+aja@DESKTOP-E906LI1:~/c23/cat$ nano name
+raja@DESKTOP-E906LI1:~/c23/cat$ cat name>name1
+->copy the context
+raja@DESKTOP-E906LI1:~/c23/cat$ cat name1
+raja
+jinu
+kalia
+deba
+bhupati
+->print the content in side the file
+
+raja@DESKTOP-E906LI1:~/c23/cat$ cat >name2
+->creat a newfile
+
+raja@DESKTOP-E906LI1:~/c23/cat$ ls
+name  name1  name2

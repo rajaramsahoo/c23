@@ -1,0 +1,15 @@
+raja@DESKTOP-E906LI1:~/c23/sed$ nano cricket
+raja@DESKTOP-E906LI1:~/c23/sed$ cat cricket
+msdhoni
+raina
+jadeja
+virat
+bumrah
+raja@DESKTOP-E906LI1:~/c23/sed$ sed 's/msdhoni/GOD/' cricket
+GOD
+raina
+jadeja
+virat
+bumrah
+
+-->sed command mainly used replace and rename the text in the file

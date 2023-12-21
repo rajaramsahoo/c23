@@ -1,0 +1,37 @@
+raja@DESKTOP-E906LI1:~/c23/sort$ sort name
+ AxarPatel
+ HardikPandya
+ IshanKishan
+ JaspritBumrah
+ KLRahul
+ KuldeepYadav
+ MohammedShami
+ MohammedSiraj
+ RavindraJadeja
+ ShardulThakur
+ ShreyasIyer
+ ShubmanGill
+ SuryakumarYadav
+ ViratKohli
+RohitSharma
+sort> order it a-z
+
+
+aja@DESKTOP-E906LI1:~/c23/sort$ sort -r name
+RohitSharma
+ ViratKohli
+ SuryakumarYadav
+ ShubmanGill
+ ShreyasIyer
+ ShardulThakur
+ RavindraJadeja
+ MohammedSiraj
+ MohammedShami
+ KuldeepYadav
+ KLRahul
+ JaspritBumrah
+ IshanKishan
+ HardikPandya
+ AxarPatel
+
+sort -r> order z-a

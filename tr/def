@@ -1,0 +1,36 @@
+raja@DESKTOP-E906LI1:~/c23/tr$ cat name
+raja
+dama
+sama
+harihar
+rahul
+rajiv
+abdul
+raja@DESKTOP-E906LI1:~/c23/tr$ cat name | tr '[:lower:]' '[:upper:]'
+RAJA
+DAMA
+SAMA
+HARIHAR
+RAHUL
+RAJIV
+ABDUL
+
+raja@DESKTOP-E906LI1:~/c23/tr$ cat name
+raj sahooa
+dama babu
+sama swain
+harihar das
+rahul gandhi
+rajiv ji
+abdul sir
+raja@DESKTOP-E906LI1:~/c23/tr$ cat name | tr -d
+tr: missing operand
+Try 'tr --help' for more information.
+raja@DESKTOP-E906LI1:~/c23/tr$ cat name | tr -d ' '
+rajsahooa
+damababu
+samaswain
+harihardas
+rahulgandhi
+rajivji
+abdulsir

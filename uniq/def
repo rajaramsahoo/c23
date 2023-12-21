@@ -1,0 +1,31 @@
+raja@DESKTOP-E906LI1:~/c23/uniq$ nano duplicate
+raja@DESKTOP-E906LI1:~/c23/uniq$ cat duplicate
+raja
+raja
+raja
+ram
+ram
+ram
+ram
+ram
+rajaram
+rajaram
+rajaram
+rajaram
+rajaram
+rajaram
+rajaram
+raja@DESKTOP-E906LI1:~/c23/uniq$ uniq duplicate
+raja
+ram
+rajaram
+0
+
+>remove the duplicate lines-uniq file name
+
+
+raja@DESKTOP-E906LI1:~/c23/uniq$ uniq  -c duplicate
+      3 raja
+      5 ram
+      7 rajaram
+> remove the duplicates and how many duplicates are their

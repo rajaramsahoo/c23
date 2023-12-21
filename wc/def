@@ -1,0 +1,12 @@
+raja@DESKTOP-E906LI1:~/c23/wc$ nano raja
+raja@DESKTOP-E906LI1:~/c23/wc$ cat raja
+hii i am rajaram sahoo
+now in bbsr,odisha
+raja@DESKTOP-E906LI1:~/c23/wc$ wc raja
+ 2  8 42 raja
+wc > used to know the number of lines--2
+                   word in the file --8
+                   char in file --42
+also writen as wc -l>for lines
+                wc -w> for words
+                wc -c for char

@@ -1,0 +1,30 @@
+raja@DESKTOP-E906LI1:~/c23$ cd od
+raja@DESKTOP-E906LI1:~/c23/od$ nano number
+raja@DESKTOP-E906LI1:~/c23/od$ cat number
+one
+two
+three
+raja
+raja@DESKTOP-E906LI1:~/c23/od$ od number
+0000000 067157 005145 073564 005157 064164 062562 005145 060562
+0000020 060552 000012
+0000023
+--> od      *show the contents of the files in hexadecimal bites
+
+
+raja@DESKTOP-E906LI1:~/c23/od$ od -b number
+0000000 157 156 145 012 164 167 157 012 164 150 162 145 145 012 162 141
+0000020 152 141 012
+0000023
+
+--> od -b   * files in octal bites
+
+
+raja@DESKTOP-E906LI1:~/c23/od$ od -c number
+0000000   o   n   e  \n   t   w   o  \n   t   h   r   e   e  \n   r   a
+0000020   j   a  \n
+0000023
+
+
+
+--> od -c   *files show in oscii format

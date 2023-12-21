@@ -1,0 +1,50 @@
+raja@DESKTOP-E906LI1:~/c23/comm$ nano file1.txt
+raja@DESKTOP-E906LI1:~/c23/comm$ sort file1.txt
+dhoni
+gakuli
+hari
+raja
+virat
+raja@DESKTOP-E906LI1:~/c23/comm$ sort file1.txt | cat > file3
+raja@DESKTOP-E906LI1:~/c23/comm$ cat file3
+dhoni
+gakuli
+hari
+raja
+virat
+raja@DESKTOP-E906LI1:~/c23/comm$ nano file2.txt
+raja@DESKTOP-E906LI1:~/c23/comm$ sort file2.txt
+anwesha
+chinky
+guddi
+iti
+raja
+saloni
+raja@DESKTOP-E906LI1:~/c23/comm$ sort file2.txt | cat > file4
+raja@DESKTOP-E906LI1:~/c23/comm$ cat file4
+anwesha
+chinky
+guddi
+iti
+raja
+saloni
+raja@DESKTOP-E906LI1:~/c23/comm$ comm file3 file4
+        anwesha
+        chinky
+dhoni
+gakuli
+        guddi
+hari
+        iti
+                raja
+        saloni
+virat
+
+
+
+it contain 3 coloums 
+1>non matching name & items in file1.tx----dhoni,gakuli,hari,viratt
+2>nonmaching name & items in file2.txt-----anwesha,chinky,guddi,iti,saloni
+3>matching name and files in both file1.txt nd file2.txt-raja
+it main slow the common file in both files nd folder
+
